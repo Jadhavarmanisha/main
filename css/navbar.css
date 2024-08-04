@@ -1,0 +1,63 @@
+/* General Navbar Styles */
+.navbar {
+    background-color: #f8f9fa; /* Light background color similar to Channabasweshwar site */
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.navbar-nav .nav-item {
+    margin: 0 5px;
+}
+
+.navbar-nav {
+    flex-wrap: wrap;
+}
+
+.nav-item {
+    flex: 1 1 auto;
+}
+
+.navbar-collapse {
+    overflow: hidden;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Dropdown Menu Styles */
+.dropdown-menu {
+    max-height: 300px; /* Increased max-height */
+    overflow-y: auto;
+    width: 250px; /* Fixed width */
+    padding: 0; /* Remove default padding */
+}
+
+.dropdown-menu a {
+    white-space: nowrap;
+    padding: 10px 15px; /* Padding to match dropdown items */
+}
+
+.dropdown-item {
+    padding: 10px 15px;
+}
+
+/* Dropdown Menu Positioning */
+.navbar-nav .nav-item .dropdown-menu {
+    position: absolute; /* Ensures dropdowns don't overflow */
+    top: 100%; /* Positions the dropdown below the nav item */
+    left: 0;
+    z-index: 1000; /* Ensures dropdown is on top of other elements */
+}
+
+/* Two-Line Layout */
+@media (max-width: 992px) {
+    .navbar-nav {
+        flex-direction: column;
+    }
+}

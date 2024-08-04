@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>SmartEDU - Education Responsive HTML5 Template</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<style>
+    
+@keyframes marquee {
+      0% {
+        transform: translateY(100%);
+      }
+      100% {
+        transform: translateY(-100%);
+      }
+    }
+	.dropdown-menu .dropdown-item:hover {
+        background-color: #ffa500; /* Orange color */
+        color: #ffffff; /* White text color */
+    }
+	
+</style>
+<body class="host_version"> 
+    <div class="col-12">
+		<div class="row align-items-center">
+			<!-- Logo Section -->
+			<div class="col-2 d-flex justify-content-center">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/kdp/IMG-20240802-WA0113.jpg" style="
+						margin: 8px; /* Reduced margin */
+						width: 94%; /* Slightly smaller width */
+						border-radius: 8px; /* Rounded corners for the logo */
+						" alt="College Logo">
+				</a>
+			</div>
+	
+			<!-- Main Content Section -->
+			<div class="col-8 text-center">
+				<div style="margin-top: 8px;"> <!-- Reduced top margin -->
+					<h6 style="
+						margin: 0;
+						font-weight: bold;
+						color: #FF5722; /* Orange color for emphasis */
+						font-size: 18px; /* Slightly smaller font size */
+						text-transform: uppercase;
+						letter-spacing: 1px;
+					">Kai. Dnyandeo Patil Charitable Trust's</h6>
+				</div>
+	
+				<div style="margin: 12px 0;"> <!-- Reduced top and bottom margins -->
+					<h1 style="
+						margin: 0;
+						font-weight: bold;
+						text-transform: uppercase;
+						color: #FF5722;
+						font-size: 30px; /* Slightly smaller font size */
+						text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+					">Kai. Dnyandeo Patil College of Pharmacy, Chikhurda</h1>
+				</div>
+	
+				<div style="margin-bottom: 8px;"> <!-- Reduced bottom margin -->
+					<h6 style="
+						margin: 0;
+						font-weight: bold;
+						color: #333;
+						font-size: 14px; /* Slightly smaller font size */
+						line-height: 1.4; /* Reduced line height for compactness */
+					">District - Latur, Maharashtra 413512 | Contact - 8605995632, 9422071438, 7499899196</h6>
+				</div>
+	
+				<div>
+					<h6 style="
+						margin: 0;
+						font-weight: bold;
+						color: #555;
+						font-size: 12px; /* Smaller font size */
+						line-height: 1.4;
+					">(Approved by Pharmacy Council of India, New Delhi & affiliated by Maharashtra State Board of Technical Education, Mumbai)</h6>
+				</div>
+			</div>
+	
+			<!-- Additional Image Section -->
+			<div class="col-2 d-flex justify-content-center">
+				<img src="images/aam.png" style="
+					width: 70%; /* Consistent with the other image size */
+					height: auto;
+					border-radius: 8px;
+					" alt="Additional Image">
+			</div>
+		</div>
+	</div>
+	
+	
+
+
+
+    <!-- LOADER -->
+	<div id="preloader">
+		<div class="loader-container">
+			<div class="progress-br float shadow">
+				<div class="progress__item"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->	
+	
+	<!-- Start header -->
+	
+	<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #003d4c;">
+	
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon" style="background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" viewBox="0 0 30 30"><path d="M0 6h30v4H0zm0 10h30v4H0zm0 10h30v4H0z"/></svg>');"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+				<!-- Home -->
+				<li class="nav-item">
+					<a class="nav-link" href="index.html" style="color:#ffffff;">Home</a>
+				</li>
+				<!-- About Us -->
+				<li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAbout" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff;">
+                        About Us
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownAbout" style="background-color: #004d60; border: none;">
+                        <a class="dropdown-item" href="about-institution.html" style="color: #ffffff;">About Institution</a>
+                        <a class="dropdown-item" href="boardoftrustees.html" style="color: #ffffff;">Board of Trustees</a>
+                        <a class="dropdown-item" href="GoverningCouncil.html" style="color: #ffffff;">Governing Council</a>
+                        <a class="dropdown-item" href="SecretaryMessage.html" style="color: #ffffff;">Secretary Message</a>
+                        <a class="dropdown-item" href="PrincipalsMessage.html" style="color: #ffffff;">Principals Message</a>
+                        <a class="dropdown-item" href="CodeofConduct.html" style="color: #ffffff;">Code of Conduct</a>
+                        <a class="dropdown-item" href="Approvals.html" style="color: #ffffff;">Approvals</a>
+                        <a class="dropdown-item" href="Policies.html" style="color: #ffffff;">Policies</a>
+                        <a class="dropdown-item" href="Facilities.html" style="color: #ffffff;">Facilities</a>
+                
+                    </div>
+                </li>
+
+				<!--Committees-->
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAcademics" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff;">
+						Committees
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownAcademics" style="background-color: #004d60; border: none;">
+						<a class="dropdown-item" href="CollegeDevelopmentComitee.html" style="color: #ffffff;">College Development Committee</a>
+						<a class="dropdown-item" href="SatuatoryCellsComitee.html" style="color: #ffffff;"> Statutory Cells /Committees
+						</a>
+						<a class="dropdown-item" href="InstitutionalComitee.html" style="color: #ffffff;">Institutional Committee</a>
+					
+					</div>
+				</li>
+				<!-- Academics -->
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAcademics" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff;">
+						Academics
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownAcademics" style="background-color: #004d60; border: none;">
+						<a class="dropdown-item" href="staff.html" style="color: #ffffff;">Staff</a>
+						<a class="dropdown-item" href="AcademicCalender.html" style="color: #ffffff;">Academic Calender</a>
+						<a class="dropdown-item" href="timetable.html" style="color: #ffffff;">Timetable</a>
+						<a class="dropdown-item" href="Syllabus.html" style="color: #ffffff;">Syllabus</a>
+						<a class="dropdown-item" href="courseoutcome.html" style="color: #ffffff;">Course Outcome</a>
+						<a class="dropdown-item" href="programOutcome.html" style="color: #ffffff;">Program Outcome</a>
+						<a class="dropdown-item" href="facultyWelfare.html" style="color: #ffffff;">Faculty Welfare</a>
+					</div>
+				</li>
+				<!-- Admissions -->
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAdmissions" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff;">
+						Program
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownAdmissions" style="background-color: #004d60; border: none;">
+						<a class="dropdown-item" href="dpharm.html" style="color: #ffffff;">D. Pharm</a>
+					</div>
+				</li>
+				<!-- Campus Life -->
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCampusLife" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff;">
+						Department
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownCampusLife" style="background-color: #004d60; border: none;">
+						<a class="dropdown-item" href="dpharmacy.html" style="color: #ffffff;">D. Pharmacy</a>
+						</div>
+				</li>
+				<!-- Contact Us -->
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownContact" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff;">
+						Facilities
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownContact" style="background-color: #004d60; border: none;">
+						<a class="dropdown-item" href="AdministrativeArea.html" style="color: #ffffff;">Administrative Area</a>
+						<a class="dropdown-item" href="Laboratory.html" style="color: #ffffff;">Laboratory</a>
+						<a class="dropdown-item" href="ICTBasedClassrooms.html" style="color: #ffffff;">ICT Based Classrooms</a>
+						<a class="dropdown-item" href="Library.html" style="color: #ffffff;">Library</a>
+						<a class="dropdown-item" href="ComputerLab.html" style="color: #ffffff;">Computer Lab</a>
+						<a class="dropdown-item" href="ITFacility.html" style="color: #ffffff;">IT Facility</a>
+						<a class="dropdown-item" href="MedicinalGarden.html" style="color: #ffffff;">Medicinal Garden</a>
+						<a class="dropdown-item" href="CentralInstrumentationRoom.html" style="color: #ffffff;">Central Instrumentation Room</a>
+						<a class="dropdown-item" href="SeminarHall.html" style="color: #ffffff;">Seminar Hall</a>
+						<a class="dropdown-item" href="Other.html" style="color: #ffffff;">Other</a>
+				
+						
+					</div>
+				</li>
+				<!-- News -->
+				
+				<!-- Events -->
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownEvents" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff;">
+						Students
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdownEvents" style="background-color: #004d60; border: none;">
+						<a class="dropdown-item" href="StudentLogin.html" style="color: #ffffff;">Student Login</a>
+						<a class="dropdown-item" href="StudentCouncil.html" style="color: #ffffff;">Student Council</a>
+						<a class="dropdown-item" href="Cultural.html" style="color: #ffffff;">Cultural</a>
+						<a class="dropdown-item" href="Sports.html" style="color: #ffffff;">Sports</a>
+						<a class="dropdown-item" href="NSS.html" style="color: #ffffff;">NSS</a>
+						<a class="dropdown-item" href="Achievements.html" style="color: #ffffff;">Achievements</a>
+						<a class="dropdown-item" href="Scholarship.html" style="color: #ffffff;">Scholarship</a>
+						
+						
+						
+					</div>
+				</li>
+				<!-- Gallery -->
+				
+				<!-- Library -->
+				
+				<!-- Alumni -->
+				
+				<!-- Examination -->
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownExamination" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff;">
+        Examination
+    </a>
+    <div class="dropdown-menu" aria-labelledby="navbarDropdownExamination" style="background-color: #004d60; border: none;">
+        <a class="dropdown-item" href="ExamCommittee.html" style="color: #ffffff;">Exam Committee</a>
+        <a class="dropdown-item" href="ExamTimetable.html" style="color: #ffffff;">Exam Timetable</a>
+        <a class="dropdown-item" href="ExaminationPolicy.html" style="color: #ffffff;">Examination Policy</a>
+        <a class="dropdown-item" href="gravienceRedresal.html" style="color: #ffffff;">Grievance Redressal Mechanism</a>
+        <a class="dropdown-item" href="result.html" style="color: #ffffff;">Result</a>
+    </div>
+</li>
+
+
+
+<!-- Research -->
+
+
+<!-- T&P -->
+<li class="nav-item">
+    <a class="nav-link" href="#" style="color: #ffffff;">T&P</a>
+</li>
+<li class="nav-item dropdown">
+	<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownAlumni" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: #ffffff;">
+		Alumni
+	</a>
+	<div class="dropdown-menu" aria-labelledby="navbarDropdownAlumni" style="background-color: #004d60; border: none;">
+		<a class="dropdown-item" href="AlumniAssociation.html" style="color: #ffffff;">Alumni Association</a>
+		<a class="dropdown-item" href="AlumniStories.html" style="color: #ffffff;">Alumni Stories</a>
+		<a class="dropdown-item" href="AlumniEvents.html" style="color: #ffffff;">Alumni Events</a>
+		<a class="dropdown-item" href="AlumniRegistration.html" style="color: #ffffff;">Alumni Registration</a>
+	</div>
+</li>
+<!-- ABC -->
+<li class="nav-item">
+    <a class="nav-link" href="abc.html" style="color: #ffffff;">ABC</a>
+</li>
+
+<li class="nav-item">
+    <a class="nav-link" href="Feedback.html" style="color: #ffffff;">Feedback</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="contact.html" style="color: #ffffff;">Contact Us</a>
+</li>
+
+			</ul>
+		</div>
+	</nav>
+	
+	
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	
+	
+
+	<!-- End header -->
+	
+	<div class="all-title-box">
+		<div class="container text-center">
+			<h1>About Us<span class="m_1">Welcome to KDP College of Pharmacy! We aim to increase knowledge about drugs and medicines through high quality teaching and research and thereby improve the quality of life through best use of medicines.</span></h1>
+		</div>
+	</div>
+	
+    <div id="overviews" class="section lb">
+        <div class="container">
+            <div class="section-title row text-center">
+                <div class="col-md-12">
+                    <h3>About</h3>
+                    <p class="lead">The Dnyandev Patil Charitable Trust, Chikhurda, Dist, Latur was established in September 1995. The trust is dedicated to educational, social and economic development of farming community and rural people. Trust started a college of Pharmacy Management comprising U.G. program i.e. D. Pharmacy (Diploma in Pharmacy) in September 2023 Institute No. 52362 and affiliated to Maharashtra State Board of Technical Education, Mumbai to meet the human resources in the field of Pharmacy. 
+
+                        Our motto to shape community, society through education, extension demonstration, training and make a perfect excellence in pharmacy sector and I assured our diploma holder are not only job seekers but also job creators.</p>
+                </div>
+            </div><!-- end title -->
+        
+            <div class="row align-items-center">
+                <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h4>Honorable Chairman</h4>
+                        <h2>Shri. Suresh Bhujangrao Kadam</h2>
+                        <p>The Dnyandev Patil Charitable Trust, Chikhurda, Dist, Latur was established in September 1995. The trust is dedicated to educational, social and economic development of farming community and rural people.  More than 25 yrs serving to field of Education with social responsibilities. Trust started a college of Pharmacy Management comprising U.G. program i.e. D. Pharmacy (Diploma in Pharmacy) in September 2023 Institute No. 52362 and affiliated to Maharashtra State Board of Technical Education, Mumbai to meet the human resources in the field of Pharmacy. 
+
+                            We have team of experience teachers, well established Labs and other facilities. 
+                           
+                           Our motto to shape community, society through education, extension demonstration, training and make a perfect excellence in pharmacy sector and I assured our diploma holder are not only job seekers but also job creators. </p>
+                        <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="images/about_03.png" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+			</div>
+			<div class="row align-items-center">
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="post-media wow fadeIn">
+                        <img src="images/about_03.jpg" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+				
+				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+                    <div class="message-box">
+                        <h2>The standard Lorem Ipsum passage, used since the 1500s</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum.</p>
+
+                        <a href="#" class="hover-btn-new orange"><span>Learn More</span></a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	
+	<div class="hmv-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="inner-hmv">
+						<div class="icon-box-hmv"><i class="flaticon-achievement"></i></div>
+						<h3>Mission</h3>
+						<div class="tr-pa">M</div>
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eligendi expedita, provident cupiditate in excepturi.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="inner-hmv">
+						<div class="icon-box-hmv"><i class="flaticon-eye"></i></div>
+						<h3>Vision</h3>
+						<div class="tr-pa">V</div>
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eligendi expedita, provident cupiditate in excepturi.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<div class="inner-hmv">
+						<div class="icon-box-hmv"><i class="flaticon-history"></i></div>
+						<h3>History</h3>
+						<div class="tr-pa">H</div>
+						<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam eligendi expedita, provident cupiditate in excepturi.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/parallax_04.jpg');">
+        <div class="container">
+            <div class="section-title text-center">
+                <h3>Testimonials</h3>
+                <p>Lorem ipsum dolor sit aet, consectetur adipisicing lit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            </div><!-- end title -->
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="testi-carousel owl-carousel owl-theme">
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/testi_01.png" alt="" class="img-fluid">
+                                <h4>James Fernando </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
+                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/testi_02.png" alt="" class="img-fluid">
+                                <h4>Jacques Philips </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
+                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/testi_03.png" alt="" class="img-fluid ">
+                                <h4>Venanda Mercy </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
+                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/testi_01.png" alt="" class="img-fluid">
+                                <h4>James Fernando </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
+                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/testi_02.png" alt="" class="img-fluid">
+                                <h4>Jacques Philips </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
+                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+							<div class="testi-meta">
+                                <img src="images/testi_03.png" alt="" class="img-fluid">
+                                <h4>Venanda Mercy </h4>
+                            </div>
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
+                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div><!-- end testimonial -->
+                    </div><!-- end carousel -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <div class="parallax section dbcolor">
+        <div class="container">
+            <div class="row logos">
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_01.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_02.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_03.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_04.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_05.png" alt="" class="img-repsonsive"></a>
+                </div>
+                <div class="col-md-2 col-sm-2 col-xs-6 wow fadeInUp">
+                    <a href="#"><img src="images/logo_06.png" alt="" class="img-repsonsive"></a>
+                </div>
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>About US</h3>
+                        </div>
+                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</p>
+                        <div class="footer-right">
+							<ul class="footer-links-soi">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-github"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+							</ul><!-- end links -->
+						</div>
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+				<div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Information Link</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Pricing</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Contact Details</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="mailto:#">info@yoursite.com</a></li>
+                            <li><a href="#">www.yoursite.com</a></li>
+                            <li>PO Box 16122 Collins Street West Victoria 8007 Australia</li>
+                            <li>+61 3 8376 6284</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-center">                   
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2018 <a href="#">SmartEDU</a> Design By : <a href="https://html.design/">html design</a></p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
